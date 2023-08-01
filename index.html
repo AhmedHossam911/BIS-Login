@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIS Portal Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav-bar">
+    <div class="logo">
+      <img src="Logo.png" alt="BIS Logo">
+      <p>Business Information Systems (BIS) </p> 
+       
+    </div>
+    <div class="logo">
+      <img src="Helwan Logo.jpg" alt="Helwan logo">
+      <p>Helwan University
+        Faculty Of Commerce & Business Administration</p>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="student-login">
+      <h2>Student Login</h2>
+      <form id="student-form">
+        <!-- Add your student login form fields here -->
+        <input type="text" placeholder="Student ID" name="username" required>
+        <input type="password" placeholder="National ID" name="password" required>
+        <p class="error-message" id="student-error"></p>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <div class="management-login">
+      <h2>Management Login</h2>
+      <form id="management-form">
+        <!-- Add your management login form fields here -->
+        <input type="text" placeholder="Username" name="username" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <p class="error-message" id="management-error"></p>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-column">
+        <div class="social-media">
+          <a href="https://www.facebook.com/BIS.FCBA.Helwan.uni" class="social-link">
+            <img style="width: 50px; height: 50px;" src="fb.png" alt="fb logo"> Facebook </a>
+            
+            <!-- <br> -->
+
+          <a href="https://www.facebook.com/groups/483323791827046" class="social-link">
+            <img style="width: 50px; height: 50px;" src="facebook-group-facebook-group-icon-png.png" alt="fb group">  Facebook Group </a>
+ 
+            <!-- <br> -->
+            
+            <a href="http://fcba.helwan.edu.eg/?fbclid=IwAR0j-OzzCcLZYOopsVdb20qZjHnQSwaYPbwM559rsuC6jn_Dftdse0RUILw" class="social-link">
+            <img style="width: 50px; height: 50px;" src="internet-web-icon-in-trendy-flat-style-isolated-on-white-background-website-symbol-for-your-website-design-logo-app-ui-illustration-free-vector.jpg"  alt="website"> faculty website </a>
+          <!-- <br> -->
+        </div>
+      </div>
+      <div class="footer-column">
+        <p>Contact us:   <a href="comfac@commerce.helwan.edu.eg">comfac@commerce.helwan.edu.eg</a></p>
+        <p>Phone: <a href=" +20 25509878"> +20 25509878</a></p>
+        <p>Address: ٤٣ شارع ابوالفدا الزمالك, Cairo, Egypt <a href="https://goo.gl/maps/i85DTSrRK87ysxFcA"> Get Directions</a></p>
+      </div>
+
+    </div>
+
+    <p class="footer-copy">&copy; 2023 Business Information Systems (BIS). All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>s
+</body>
+</html>
